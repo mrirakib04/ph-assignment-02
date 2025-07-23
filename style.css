@@ -1,5 +1,6 @@
 button {
   cursor: pointer;
+  font-family: sans-serif;
 }
 html {
   scroll-behavior: smooth;

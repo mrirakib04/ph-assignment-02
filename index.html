@@ -33,7 +33,9 @@
             <li class="hover:text-black duration-300">
               <a href="#header">Home</a>
             </li>
-            <li class="hover:text-black duration-300"><a href="">Shop</a></li>
+            <li class="hover:text-black duration-300">
+              <a href="#shop">Shop</a>
+            </li>
             <li class="hover:text-black duration-300">
               <a href="">About Us</a>
             </li>
@@ -201,7 +203,7 @@
       </div>
       <!-- plants lover section -->
       <div
-        class="flex md:flex-nowrap flex-wrap items-start justify-center gap-10 md:pt-20 py-10 sm:w-11/12 mx-auto sm:px-0 px-5"
+        class="flex md:flex-nowrap flex-wrap items-center justify-center gap-10 md:pt-20 py-10 sm:w-11/12 mx-auto sm:px-0 px-5"
       >
         <div class="relative lg:w-2/3 flex items-end justify-start">
           <img src="./assets/images/flower-store.png" alt="lover-image" />
@@ -237,6 +239,89 @@
               space stays beautiful, healthy, and easy to care for all year.
             </li>
           </ul>
+        </div>
+      </div>
+      <!-- latest deals section -->
+      <div
+        id="shop"
+        class="flex flex-col items-center gap-3 py-10 sm:w-11/12 mx-auto sm:px-0 px-5"
+      >
+        <h2 class="lg:text-5xl md:text-4xl sm:text-3xl text-2xl font-bold">
+          Latest
+          <span class="text-orange-500">Deals</span>
+        </h2>
+        <p class="md:w-7/12 sm:w-4/5 text-center text-gray-600">
+          Discover unbeatable offers on our latest plant collections. From
+          indoor greens to blooming beauties—shop now and save big on fresh
+          arrivals. Limited-time deals to refresh your space affordably.
+        </p>
+        <div
+          class="grid md:grid-cols-5 sm:grid-cols-2 grid-cols-1 gap-5 w-full text-white mt-5"
+        >
+          <div class="flex flex-col md:col-span-2 col-span-1 gap-5">
+            <div
+              style="
+                background: url(./assets/images/deal-bloom.png);
+                background-position: center;
+                background-size: cover;
+                background-repeat: no-repeat;
+              "
+              class="md:h-48 sm:h-40 h-40 rounded-xl overflow-hidden"
+            >
+              <div
+                class="w-full h-full flex flex-col items-center justify-center gap-1 bg-black/50"
+              >
+                <h4 class="text-lg font-medium">60% off | Bloom Plants</h4>
+                <button
+                  class="text-xl font-semibold underline hover:text-gray-400 duration-300"
+                >
+                  Shop Now
+                </button>
+              </div>
+            </div>
+            <div
+              style="
+                background: url(./assets/images/deal-ana.png);
+                background-position: center;
+                background-size: cover;
+                background-repeat: no-repeat;
+              "
+              class="md:h-48 sm:h-40 h-40 rounded-xl overflow-hidden"
+            >
+              <div
+                class="w-full h-full flex flex-col items-center justify-center gap-1 bg-black/50"
+              >
+                <h4 class="text-lg font-medium">30% off | Ana Plants</h4>
+                <button
+                  class="text-xl font-semibold underline hover:text-gray-400 duration-300"
+                >
+                  Shop Now
+                </button>
+              </div>
+            </div>
+          </div>
+          <div
+            style="
+              background: url(./assets/images/deal-zabo.png);
+              background-position: center;
+              background-size: cover;
+              background-repeat: no-repeat;
+            "
+            class="md:col-span-3 sm:h-full h-40 col-span-1 rounded-xl overflow-hidden"
+          >
+            <div
+              class="w-full h-full flex flex-col items-center justify-center gap-1 bg-black/50"
+            >
+              <h4 class="lg:text-xl text-lg font-medium">
+                25% off | Joba Plants
+              </h4>
+              <button
+                class="lg:text-2xl text-xl font-semibold underline hover:text-gray-400 duration-300"
+              >
+                Shop Now
+              </button>
+            </div>
+          </div>
         </div>
       </div>
     </main>
